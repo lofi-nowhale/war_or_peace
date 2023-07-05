@@ -25,9 +25,10 @@ class Deck
         
     end 
 
-    def add_card
-        @card << card
+    def add_card(card)
+        @cards << card
     end
 end
+
 
 # cards = [card1, card2, card3]
